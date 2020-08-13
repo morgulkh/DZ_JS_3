@@ -106,7 +106,7 @@ if ((dates.date1.getTime() >= date3.getTime()) && (date3.getTime() >= dates.date
 
 //8
 let arr6 = [];
-let n = 3;
+n = 3;
 let num = 0;
 for (let i = 0; i < n; i++) {
     num = +prompt('введите число');
@@ -118,8 +118,8 @@ alert(`sum is ${sum6}`);
 //9
 let arr9 = Array(10);
 let subArr = null;
-let i = 0;
-let j = 0;
+i = 0;
+j = 0;
 let result = 0;
 for (i = 1; i < 11; i++) {
     subArr = Array(10);
